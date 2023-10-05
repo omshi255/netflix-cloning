@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup page</title>
+    <style>
+     
+       .box
+       {
+        position: relative;
+        bottom: 980px;
+        left: 35%;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;  
+        width: 30%;
+        height: 500px;
+        background-color: #000;
+        border-radius: 5px;
+       }
+       .box input
+       {
+        padding: 17px 17px;
+        background-color: #333;
+        color: gray;
+        border-radius: 4px;
+        margin-left: 100px;
+        margin-right:50px ;
+        width:240px;
+        
+       
+       }
+       .box button
+       {
+        background-color:red;
+        border: none;
+        color: white;
+         padding: 15px 32px;
+        text-align: center;
+         text-decoration: none;
+       display: inline-block;
+       font-size: 23px;
+       border-radius: 5px;
+       margin-left: 100px;
+        margin-right:50px ;
+        width: 260px;
+       
+       }
+       .box h1
+       {
+        color: white;
+        padding: 15px 32px;
+        font-size: 35px;
+        font-family: sans-serif;
+       }
+    </style>
+</head>
+<body>
+    <div class="image">
+    <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg"alt="">
+    <div class="box">
+        <h1>Sign in</h1>
+        <form action="backent.php">
+            <input type="text" placeholder="Enter Email or Phone number">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button>Sign in</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

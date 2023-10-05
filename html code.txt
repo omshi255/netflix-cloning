@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        body
+        {
+            background-color: black
+        }
+        .navbar 
+        {
+            color: aliceblue;
+            text-align: center;
+          
+        }
+        .navbar li 
+        {
+           display: inline;
+        
+        }
+        .navbar li a
+        {
+            list-style: none;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            text-decoration: none;
+            padding: 25px;
+            font-weight: 700;
+            position: relative;
+            bottom: 60px;
+         }
+        .navbar li a:hover
+        {
+           color: white;
+        }
+        h1
+        {
+            font-weight: 990;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 20%;
+            text-shadow: red;
+        }  
+        .name
+        {
+            position: relative;
+            top: 180px;
+            color: aliceblue;
+            left: 180px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .name h3
+        {
+            color: red;
+        }
+        .name h3:hover
+        {
+            color: white;
+        }
+        .name h1
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .name p
+        {
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .name p:hover
+        {
+            color: red;
+        }
+        .name h1:hover
+        {
+            color: red;
+        }
+        .btn 
+        {
+            background-color: inherit;
+            color: red;
+            border: 2px solid red;
+            padding: 12px 32px;
+            border-radius: 20%;
+        }
+        .btn a
+        {
+
+            text-decoration: none;
+            color: red;
+        }
+        .btn :hover
+        {
+           color: white;
+        }
+       
+
+
+</style>
+</head>
+<body>
+    <h1>Portfolio</h1>
+    <div class="box">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+     <div class="name">
+        <h3>I am</h3>
+        <h1>Swati Sen</h1>
+        <h3>upcoming engineer</h3>
+        <p>I have Knowledge of c/c++ with DSA and<br>
+             i am currently working in frontend <br>
+            and i am pasionate about my work</p>
+             <button class="btn"><a href="">About me</a></button>
+
+    </div>
+    <div class="image">
+        <img src="C:\Users\swati sen\Videos\Captures\swati.jpg" alt="">
+    </div>
+    </div>
+</body>
+</html>
